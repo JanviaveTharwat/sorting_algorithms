@@ -27,8 +27,10 @@ int max(int *array, int size)
  */
 void counting_sort(int *array, size_t size)
 {
-	int *count, *sort;
-  int m, n;
+	int *count;
+	int *sort;
+	int m;
+	int n;
 
 	if (array == NULL || size < 2)
 		return;
