@@ -2,8 +2,8 @@
 
 /**
  * int_swapping - Swap two integers in an array.
- * @a: The first integer to swap.
- * @b: The second integer to swap.
+ * @pra: The first integer to swap.
+ * @prb: The second integer to swap.
  * Return: void 
  */
 void int_swapping(int *pra, int *prb)
