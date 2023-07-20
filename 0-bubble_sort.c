@@ -23,8 +23,8 @@ void int_swapping(int *pra, int *prb)
  */
 void bubble_sort(int *array, size_t size)
 {
-	size i;
-        len = size;
+	size_t i;
+	size_t len = size;
 	bool bubbly = false;
 
 	if (array == NULL || size < 2)
