@@ -34,7 +34,7 @@ void bitonic_merg(int *array, size_t size, size_t start, size_t seq,
 		char flow)
 {
 	size_t i;
-  size_t jump = seq / 2;
+	size_t jump = seq / 2;
 
 	if (seq > 1)
 	{
