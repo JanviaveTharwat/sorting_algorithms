@@ -50,7 +50,7 @@ void counting_sort(int *array, size_t size)
 		count[n] = 0;
 	for (n = 0; n < (int)size; n++)
 		count[array[n]] += 1;
-	for (n = 0; i < (m + 1); n++)
+	for (n = 0; n < (m + 1); n++)
 		count[n] += count[n - 1];
 	print_array(count, m + 1);
 
