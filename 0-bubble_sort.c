@@ -4,7 +4,7 @@
  * int_swapping - Swap two integers in an array.
  * @pra: The first integer to swap.
  * @prb: The second integer to swap.
- * Return: void 
+ * Return: void
  */
 void int_swapping(int *pra, int *prb)
 {
@@ -23,8 +23,8 @@ void int_swapping(int *pra, int *prb)
  */
 void bubble_sort(int *array, size_t size)
 {
-	size_t i;
-  len = size;
+	size i;
+        len = size;
 	bool bubbly = false;
 
 	if (array == NULL || size < 2)
