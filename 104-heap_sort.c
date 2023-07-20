@@ -10,7 +10,7 @@ void heap_sort(int *array, size_t size);
  * @ptb: The second integer to swap
  * Return :void
  */
-void swap_ints(int *pta, int *pyb)
+void int_swapping(int *pta, int *ptb)
 {
 	int tmp;
 
@@ -66,7 +66,7 @@ void heap_sort(int *array, size_t size)
 
 	for (i = size - 1; i > 0; i--)
 	{
-		swap_ints(array, array + i);
+		int_swapping(array, array + i);
 		print_array(array, size);
 		max_heapify(array, size, i, 0);
 	}
