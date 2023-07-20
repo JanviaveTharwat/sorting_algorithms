@@ -7,7 +7,7 @@ void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow);
 void bitonic_sort(int *array, size_t size);
 
 /**
- * int_sawpping - Swap two integers in an array.
+ * int_swapping - Swap two integers in an array.
  * @pta: The first integer to swap.
  * @ptb: The second integer to swap
  * Return : void
