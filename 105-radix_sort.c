@@ -24,7 +24,7 @@ int maximum(int *array, int size)
 }
 
 /**
- * counting_sort - Sort array using the counting sort algorithm
+ * Rcounting_sort - Sort array using the counting sort algorithm
  * @array: the array of integers.
  * @size: The size
  * @sig: The significant digit
